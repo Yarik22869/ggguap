@@ -446,6 +446,7 @@ body {
   left: 0px !important;
   display: flex;
   flex-direction: column;
+  
 }
 
 .klub {
@@ -617,7 +618,7 @@ body {
   font-weight: 700;
   line-height: normal;
   position: relative !important;
-  top: -2440px !important;
+  top: -2500px !important;
   left: -1135px !important;
   text-wrap: nowrap;
   background-color: black;
@@ -815,7 +816,7 @@ body {
   font-weight: 700;
   line-height: normal;
   position: relative !important;
-  top: 20px !important;
+  top: 30px !important;
 }
 .container2 .block2 .content2 h1 {
   color: #fff;
@@ -824,9 +825,9 @@ body {
   font-size: 36.278px;
   font-style: normal;
   font-weight: 500;
-  line-height: normal;
+  line-height: 25px;
   position: relative !important;
-  top: 40px !important;
+  top: 50px !important;
   white-space: pre-line;
 }
 .container2 .block2 .content2 h3 {
@@ -994,110 +995,22 @@ body {
     transform: translateX(-150%);
   }
 }
-.image4 {
-  position: relative !important;
-  top: -700px !important;
-  left: 160px !important;
-  max-height: 1px !important;
-  display: flex;
-  flex-direction: column;
-  width: 25% !important;
-  height: 25% !important;
+.container3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(3, 1fr); 
+  gap: 10px; 
+  margin-top: -700px;
 }
-.image5 {
-  position: relative !important;
-  top: -480px !important;
-  left: 165px !important;
-  max-height: 1px !important;
-  display: flex;
-  flex-direction: column;
-  width: 25% !important;
-  height: 25% !important;
-}
-.image6 {
-  position: relative !important;
-  top: -260px !important;
-  left: 165px !important;
-  max-height: 1px !important;
-  display: flex;
-  flex-direction: column;
-  width: 25% !important;
-  height: 25% !important;
-}
-.image7 {
-  position: relative !important;
-  top: -703px !important;
-  left: 560px !important;
-  max-height: 1px !important;
-  display: flex;
-  flex-direction: column;
-  width: 25% !important;
-  height: 25% !important;
-}
-.image8 {
-  position: relative !important;
-  top: -483px !important;
-  left: 565px !important;
-  max-height: 1px !important;
-  display: flex;
-  flex-direction: column;
-  width: 25% !important;
-  height: 25% !important;
-}
-.image9 {
-  position: relative !important;
-  top: -262px !important;
-  left: 565px !important;
-  max-height: 1px !important;
-  display: flex;
-  flex-direction: column;
-  width: 25% !important;
-  height: 25% !important;
-}
-.image10 {
-  position: relative !important;
-  top: -706px !important;
-  left: 965px !important;
-  max-height: 1px !important;
-  display: flex;
-  flex-direction: column;
-  width: 25% !important;
-  height: 25% !important;
-}
-.image11 {
-  position: relative !important;
-  top: -485px !important;
-  left: 965px !important;
-  max-height: 1px !important;
-  display: flex;
-  flex-direction: column;
-  width: 25% !important;
-  height: 25% !important;
-}
-.image12 {
-  position: relative !important;
-  top: -266px !important;
-  left: 965px !important;
-  max-height: 1px !important;
-  display: flex;
-  flex-direction: column;
-  width: 25% !important;
-  height: 25% !important;
-}
-.aeror {
-  color: #fff;
 
-  font-family: Unbounded;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  position: relative !important;
-  top: -10px !important;
-  left: 510px !important;
-  display: flex;
-  flex-direction: column;
+.klub4 {
+  width: 90%; 
+  height: auto; 
+  display: block; 
+  margin-left: 20px;
+
 }
+
 .item {
   width: 2000px;
   height: 50px;
@@ -1367,258 +1280,125 @@ body {
   }
   .intro__title {
     font-size: 50px;
-    position: relative ;
-    left: -10px;
+    margin-top: 100px;
+    margin-left: -160px;
+
   }
   .intro__subtitle {
     font-size: 13px;
-    position: relative ;
-    left: -9px;
+    margin-top: 0px;
+    margin-left: -158px;
   }
   .intro {
     height: 50vh;
   }
   .intro_logo1{
-    width: 10vw;
-    height: auto;
+    margin-top: 120px;
+    margin-left: -70px;
   }
-  .intro .intro_logo1 {
-    position: relative !important;
-    top: -1000px !important;
-    left: 0px !important;
-    
+  .intro_logo2{
+    margin-top: -170px;
+    margin-left: -600px;
   }
-  .intro .intro_logo2 {
-    position: relative !important;
-    top: -950px !important;
-    left: 510px !important;
+  .intro_logo3{
+    margin-top: 170px;
+    margin-left: -600px;
   }
-  .intro .intro_logo3 {
-    position: relative !important;
-    top: -700px !important;
-    left: 550px !important;
+  .intro_logo4{
+    margin-top: 170px;
+    margin-left: 0px;
   }
-  .intro .intro_logo4 {
-    position: relative !important;
-    top: -850px !important;
-    left: 50px !important;
+  .container{
+flex-direction: column;
+margin-top: -915px;
+margin-left: 0px;
   }
-  .intro .intro_logo5 {
-    position: relative !important;
-    top: -1800px !important;
-    left: 680px !important;
+  .intro_logo6{
+    margin-top: -1050px;
+    margin-left: -10px;
   }
-  .text_programma {
-    position: relative !important;
-    top: -200px !important;
+  .intro_logo7{
+    margin-top: 1070px;
+    margin-left: -950px;
   }
-  .container {
-    flex-direction: column;
-    position: relative !important;
-    top: -255px !important;
-    left: 0px !important;
+  .intro_logo8{
+    margin-top: 10px;
+    margin-left: -910px;
   }
-  .container .block {
-    margin: 40px !important;
-    width: 300px;
-    height: 330px;
+  .text_club{
+    font-size: 60px;
+    margin-top: -600px;
+    margin-left: 850px;
   }
-  .klub {
-    width: 500%;
-    height: auto;
-    z-index: 0;
-    position: relative !important;
-    top: 300px;
-    left: -900px;
-    clip-path: polygon(0 0, 66% 0, 66% 100%, 0% 100%);
+  .text_sound{
+    font-size: 50px;
+    margin-top: 0px;
+    margin-left: 760px;
   }
-  .text_location {
-    top: -4030px !important;
+  .text_lorem{
+    font-size: 20px;
+    margin-top: -10px;
+    margin-left: 855px;
+    width: 400px;
   }
-  .text_club {
-    top: 140px !important;
-    left: -430px !important;
-    font-size: 55px;
-  }
-  .text_sound {
-    top: 130px !important;
-    left: -330px !important;
-    font-size: 55px;
-  }
-  .text_lorem {
-    top: 160px !important;
-    left: -430px !important;
-    max-width: 370px;
-  }
-  .image2 {
-    position: relative !important;
+  .image2{
     width: 200% !important;
     height: 200% !important;
-    top: 210px !important;
-    left: -465px !important;
+    margin-top: 430px;
+    margin-left: 160px;
   }
-  .image3 {
-    position: relative !important;
-    top: 390px !important;
-    left: -318px !important;
+.image3{
+  width: 100% !important;
+    height: 100% !important;
+  margin-top: -70px;
+    margin-left: 131px;
+}
+.text_bileti{
+  margin-top: 100px;
+}
+.text_location{
+  margin-top: 0px;
+}
+  .container2{
+flex-direction: column;
   }
-  .text_bileti {
-    position: relative !important;
-    top: -950px !important;
+  .container3 {
+    grid-template-columns: 1fr;
+    margin-left:25px;
   }
-  .container2 {
-    flex-direction: column;
-    position: relative !important;
-    top: -170px !important;
-    left: 0px !important;
+  .klub{
+    width: 650%;
+    height: 650%;
   }
-  .container2 .block2 {
-    width: 300px;
-    height: 420px;
+  .intro_logo9{
+    margin-top: 250px;
+    margin-left: -315px;
   }
-  .container2 .block2 .content2 p {
-    top: 40px !important;
+  .intro_logo10{
+    margin-top: -60px;
+    margin-left: -790px;
   }
-  .container2 .block2 .content2 h1 {
-    position: relative !important;
-    top: 70px !important;
+  .intro_logo11{
+    margin-top: 30px;
+    margin-left: -705px;
   }
-  .container2 .block2 .content2 h3 {
-    position: relative !important;
-    top: 80px !important;
+  .text_bileti{
+    margin-top: -300px;
   }
-  .container2 .block2 .content2 .button {
-    font-size: 35px;
-    top: 40px !important;
+    .intro_logo12{
+    margin-top: -20px;
+    margin-left: -520px;
   }
-  .text_foto {
-    position: relative !important;
-    top: -900px !important;
+    .intro_logo13{
+    margin-top: -1050px;
+    margin-left: -0px;
   }
-  .image4 {
-    width: 80% !important;
-    height: 80% !important;
-    position: relative !important;
-    top: -950px !important;
-    left: 50px !important;
+    .intro_logo14{
+    margin-top: 550px;
+    margin-left: -920px;
   }
-  .image5 {
-    width: 80% !important;
-  height: 80% !important;
-    position: relative !important;
-    top: -700px !important;
-    left: 50px !important;
-  }
-  .image6 {
-    width: 80% !important;
-    height: 80% !important;
-    position: relative !important;
-    top: -450px !important;
-    left: 50px !important;
-  }
-  .image7 {
-    width: 80% !important;
-    height: 80% !important;
-    position: relative !important;
-    top: -200px !important;
-    left: 50px !important;
-  }
-  .image8 {
-    width: 80% !important;
-    height: 80% !important;
-    position: relative !important;
-    top: 50px !important;
-    left: 50px !important;
-  }
-  .image9 {
-    width: 80% !important;
-    height: 80% !important;
-    position: relative !important;
-    top: 300px !important;
-    left: 50px !important;
-  }
-  .image10 {
-    width: 80% !important;
-    height: 80% !important;
-    position: relative !important;
-    top: 550px !important;
-    left: 50px !important;
-  }
-  .image11 {
-    width: 80% !important;
-    height: 80% !important;
-    position: relative !important;
-    top: 800px !important;
-    left: 50px !important;
-  }
-  .image12 {
-    width: 80% !important;
-    height: 80% !important;
-    position: relative !important;
-    top: 1050px !important;
-    left: 50px !important;
-  }
-  .aeror {
-    position: relative !important;
-    top: 1300px !important;
-    left: 130px !important;
-  }
-  .intro_logo6 {
-    position: relative !important;
-    top: -2500px !important;
-    left: 50px !important;
-  }
-  .intro_logo7 {
-    position: relative !important;
-    top: -2570px !important;
-    left: 570px !important;
-  }
-  .intro_logo8 {
-    position: relative !important;
-    top: -1870px !important;
-    left: 500px !important;
-    z-index: 1;
-  }
-  .intro_logo9 {
-    position: relative !important;
-    top: -1250px !important;
-    left: 600px !important;
-    z-index: 1;
-  }
-  .intro_logo10 {
-    position: relative !important;
-    top: -940px !important;
-    left: 450px !important;
-    z-index: 1;
-  }
-  .intro_logo11 {
-    position: relative !important;
-    top: -1040px !important;
-    left: 200px !important;
-    z-index: 1;
-  }
-  .intro_logo12 {
-    position: relative !important;
-    top: -1440px !important;
-    left: 560px !important;
-    z-index: 1;
-  }
-  .intro_logo13 {
-    position: relative !important;
-    top: -2530px !important;
-    left: 0px !important;
-    z-index: 1;
-  }
-  .intro_logo14 {
-    position: relative !important;
-    top: -1950px !important;
-    left: 580px !important;
-    z-index: 1;
-  }
-  .intro_logo15 {
-    position: relative !important;
-    top: -840px !important;
-    left: 50px !important;
-    z-index: 1;
+    .intro_logo15{
+    margin-top: 540px;
+    margin-left: 30px;
   }
 }
